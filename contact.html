@@ -7,33 +7,58 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="default.css" rel="stylesheet" type="text/css" />
     <meta name="robots" content="noindex" />
+    <style>
+      .googlemapsdiv {
+        width: 80%;
+        margin: 60px;
+        float: left;
+      }
+
+      #contact {
+        margin-top: 70px;
+      }
+    </style>
   </head>
 
   <body>
-    <ul id="navigation">
-      <li class="navlist" id="heading">Jonas Van Berlo</li>
-      <li class="navlist"><a href="index.html">Start</a></li>
-      <li class="navlist"><a href="cv.html">Curriculum vitae</a></li>
-      <li class="navlist"><a href="ervaring.html">Ervaring</a></li>
-      <li class="navlist"><a href="hobbies.html">Interesses</a></li>
-      <li class="navlist" id="active"><a href="contact.html">Contact</a></li>
-    </ul>
+    <nav>
+      <ul id="navigation">
+        <li class="navlist" id="heading">Jonas Van Berlo</li>
+        <li class="navlist"><a href="index.html">Start</a></li>
+        <li class="navlist"><a href="cv.html">Curriculum vitae</a></li>
+        <li class="navlist"><a href="ervaring.html">Ervaring</a></li>
+        <li class="navlist"><a href="hobbies.html">Interesses</a></li>
+        <li class="navlist" id="active"><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
     <section class="main">
-      <nav></nav>
       <section class="content">
         <header>
-          <h1>Contactformulier</h1>
+          <h1>Contact</h1>
         </header>
         <div class="content-left">
-          <p>Paragraaf 1</p>
-          <p>Paragraaf 2</p>
-          <p>Paragraaf 3</p>
-          <p>paragraaf 4</p>
-          <p>paragraaf 5</p>
-          <p>paragraaf 6 <a href="#">Link</a> aan.</p>
+          <p>
+            Als je meer wilt weten over mij, voel je dan vrij om me te
+            contacteren!
+          </p>
+          <br />
+          <br />
+          <h2>Locatie:</h2>
+          <p>Arendonk, België</p>
+          <br />
+          <h2>Email:</h2>
+          <p>
+            <a href="Mailto: jonasvanberlo@illin.be">jonasvanberlo@illin.be</a>
+          </p>
+          <br />
+          <h2>LinkdIn:</h2>
+          <p>
+            <a href="https://www.linkedin.com/in/jonas-van-berlo-959964256/"
+              >Link</a
+            >
+          </p>
         </div>
-        <div class="content-right">
-          <p>Heb je een vraag? Aarzel dan niet om mij een bericht te sturen!</p>
+        <div class="content-right" id="contact">
           <form action="/action_page.php" method="post">
             <div>
               <label>Voornaam</label><br />
@@ -60,17 +85,21 @@
             </div>
             <input type="submit" value="Verzenden" />
           </form>
-          <p class="strong">Locatie</p>
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d79753.65529737664!2d5.0849377!3d51.342362099999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c6b5e2092cb971%3A0x62f9922a786ea8d2!2s2370%20Arendonk!5e0!3m2!1sen!2sbe!4v1668256604252!5m2!1sen!2sbe"
-            height="250"
-            frameborder="0"
-            style="width: 100%; border: 0"
-            allowfullscreen=""
-          ></iframe>
         </div>
+        <section class="googlemaps">
+          <div class="googlemapsdiv">
+            <p class="strong">Locatie</p>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d79753.65529737664!2d5.0849377!3d51.342362099999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c6b5e2092cb971%3A0x62f9922a786ea8d2!2s2370%20Arendonk!5e0!3m2!1sen!2sbe!4v1668256604252!5m2!1sen!2sbe"
+              height="250"
+              frameborder="0"
+              style="width: 100%; border: 0"
+              allowfullscreen=""
+            ></iframe>
+          </div>
+        </section>
       </section>
     </section>
-    <footer>&copy; DJ Jean-Luc</footer>
+    <footer>&copy; Jonas Van Berlo</footer>
   </body>
 </html>
