@@ -44,7 +44,7 @@ body {
   /* De container is 70% breed */
   width: 100%;
   /* Container centreren */
-  margin: auto
+  margin: auto;
 }
 
 .content {
@@ -70,14 +70,14 @@ body {
    Dit kan dus beter.. het menu zit in een element genaamd nav misschien kan deze hulp bieden? */
 
 /* Undordered list : <ul> ... </ul> */
-#navigation  {
+#navigation {
   list-style-type: none;
   /* Maakt de bolletjes of getallen van een ul of ol onzichtbaar */
   margin: 0;
   padding: 0;
   overflow: hidden;
   background-color: #020202;
-  
+
   /* Rand onderaan */
   border-bottom: 4px #2532f0 solid;
 }
@@ -128,10 +128,9 @@ footer {
   text-align: right;
   /* Reset nodig voor float: left/right */
   clear: both;
-  
+
   position: relative;
 
-  
   /* Rand bovenaan */
   /* border-top: 4px #2532f0 solid; */
 }
@@ -220,11 +219,10 @@ input[type="submit"]:hover {
     padding-left: 0px;
   }
 }
-#rapwarz{
+#rapwarz {
   position: relative;
   top: 7px;
   left: 150px;
   bottom: 70px;
-  border: 70px
-  
+  border: 70px;
 }
