@@ -1,13 +1,12 @@
 * {
-    margin: 0px;
-    box-sizing: border-box
+  margin: 0px;
+  box-sizing: border-box
 }
-
 
 p {
   margin-top: 10px;
   margin-bottom: 10px;
-    text-align: justify
+  text-align: justify
 }
 
 h1 {
@@ -23,11 +22,11 @@ header {
 }
 
 body {
-   font-family: Arial;
+  font-family: Arial;
   background-color: #e6e6e6
 }
 
-.main {  
+.main {
   margin-top: 15px;
   padding-top: 15px;
   margin-bottom: 15px;
@@ -36,39 +35,34 @@ body {
   padding-right: 15px;
   margin-left: 15px;
   padding-left: 15px;
-    width: 100%;
-    margin: auto
+  width: 100%;
+  margin: auto
 }
 
 .content {
   margin: 0px;
   padding: 10px;
   background-color: rgb(206, 206, 206);
-    overflow: auto
+  overflow: auto
 }
 
 .responsive-img {
-  width: 100%;
+  width: 100%
 }
-
-
-
 
 #navigation {
   list-style-type: none;
-  
+
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #020202;  
+  background-color: #020202;
   border-bottom: 4px #000a9a solid
 }
-
 
 .navlist {
   float: left
 }
-
 
 .navlist a {
   display: block;
@@ -78,7 +72,6 @@ body {
   text-decoration: none
 }
 
-
 .navlist#heading {
   display: block;
   color: white;
@@ -86,20 +79,15 @@ body {
   padding: 14px 16px;
   text-decoration: none;
   font-weight: bold
-
 }
-
 
 li a:hover {
   background-color: #000a9a
 }
 
-
 #active {
   background-color: #000a9a
 }
-
-
 
 footer {
   background-color: #020202;
@@ -108,15 +96,22 @@ footer {
   font-weight: bold;
   text-align: right;
   clear: both;
-  position: relative;
+  position: relative
 }
 
 .float-left {
-  float: left
+  float: left;
 }
 
 .float-right {
-  float: right
+  float: right;
+}
+
+.content-strech {
+  width: 100%;
+  background-color: #0c540f
+  
+  
 }
 
 .content-left {
@@ -125,12 +120,27 @@ footer {
   padding-right: 10px
 }
 
+.content-left2 {
+  width: 65%;
+  float: left;
+  padding: 50px;
+  padding-bottom: 65px;
+  background-color: #ededed
+}
+
 .content-right {
   width: 40%;
   float: right;
   padding-left: 10px
 }
 
+.content-right2 {
+  width: 30%;
+  float: right;
+  padding: 10px;
+  background-color: rgb(219, 219, 219);
+  margin-right: 25px
+}
 
 input[type="text"],
 select {
@@ -153,7 +163,7 @@ textarea {
   box-sizing: border-box
 }
 
-input[type="submit"] {  
+input[type="submit"] {
   width: 100%;
   background-color: #000a9a;
   color: white;
@@ -164,7 +174,7 @@ input[type="submit"] {
   cursor: pointer
 }
 
-input[type="button"] { 
+input[type="button"] {
   width: 100%;
   background-color: #000a9a;
   color: white;
@@ -179,11 +189,10 @@ input[type="submit"]:hover {
   background-color: #0c540f
 }
 
-
 @media screen and (max-width: 800px) {
   .content-left,
-  .content-right {   
-    width: 100%;   
+  .content-right {
+    width: 100%;
     padding-right: 0px;
     padding-left: 0px
   }
@@ -234,7 +243,7 @@ input[type="submit"]:hover {
 .Experience,
 .Education,
 .course {
-  margin-bottom: 30px
+  margin-bottom: 30px;
 }
 
 #table1,
@@ -250,15 +259,16 @@ td {
 }
 
 #table2 {
-  border-spacing: 1px
+  border-spacing: 1px;
 }
 .googlemapsdiv {
   width: 80%;
-  margin: 60px;
-  float: left
-}
-
-#contact {
-  margin-top: 40px
+  margin: 90px;
+  float: left;
+  padding-top: 15px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 25px;
+  background-color: rgb(219, 219, 219)
 }
 

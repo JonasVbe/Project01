@@ -25,65 +25,70 @@
         <header>
           <h1>Contact</h1>
         </header>
-        <div class="content-left">
-          <p>
-            Als je meer wilt weten over mij, voel je dan vrij om me te
-            contacteren!
-          </p>
+        <div class="content-strech">
+          <div class="content-left">
+            <p>
+              Als je meer wilt weten over mij, voel je dan vrij om me te
+              contacteren!
+            </p>
+            <br>
+            <br>
+          </div>
         </div>
 
-        <div class="content-left">
-          <br>
-          <br>
-          <h2>Locatie:</h2>
-          <p>Arendonk, België</p>
-          <br>
-          <h2>Email:</h2>
-          <p>
-            <a href="Mailto:jonasvanberlo@illin.be">jonasvanberlo@illin.be</a>
-          </p>
-          <br>
-          <h2>LinkdIn:</h2>
-          <p>
-            <a href="https://www.linkedin.com/in/jonas-van-berlo-959964256/"
-              >Link</a
-            >
-          </p>
+        <div>
+          <div class="content-left2">
+            <h2>Locatie:</h2>
+            <p>Arendonk, België</p>
+            <br>
+            <h2>Email:</h2>
+            <p>
+              <a href="Mailto:jonasvanberlo@illin.be">jonasvanberlo@illin.be</a>
+            </p>
+            <br>
+            <h2>LinkdIn:</h2>
+            <p>
+              <a href="https://www.linkedin.com/in/jonas-van-berlo-959964256/"
+                >Link</a
+              >
+            </p>
+          </div>
+          <div class="content-right2">
+            <form action="/action_page.php" method="post">
+              <div>
+                <label>Voornaam</label><br>
+                <input
+                  type="text"
+                  name="firstname"
+                  placeholder="Voornaam"
+                  required>
+              </div>
+              <div>
+                <label>Familienaam</label><br>
+                <input
+                  type="text"
+                  name="lastname"
+                  placeholder="Familienaam"
+                  required><br>
+                <textarea
+                  placeholder="Jouw vragen of opmerkingen hier."
+                  rows="5"
+                  required
+                ></textarea>
+              </div>
+              <input type="submit" value="Verzenden">
+            </form>
+          </div>
         </div>
-        <div class="content-right" id="contact">
-          <form action="/action_page.php" method="post">
-            <div>
-              <label>Voornaam</label><br>
-              <input
-                type="text"
-                name="firstname"
-                placeholder="Voornaam"
-                required>
-            </div>
-            <div>
-              <label>Familienaam</label><br>
-              <input
-                type="text"
-                name="lastname"
-                placeholder="Familienaam"
-                required><br>
-              <textarea
-                placeholder="Wat is je vraag?"
-                rows="5"
-                required></textarea>
-            </div>
-            <input type="submit" value="Verzenden">
-          </form>
-        </div>       
-          <div class="googlemapsdiv">
-            <p class="strong">Locatie</p>
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d79753.65529737664!2d5.0849377!3d51.342362099999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c6b5e2092cb971%3A0x62f9922a786ea8d2!2s2370%20Arendonk!5e0!3m2!1sen!2sbe!4v1668256604252!5m2!1sen!2sbe"
-              height="250"
-              style="width: 100%; border: 0"
-              allowfullscreen=""
-            ></iframe>
-          </div>        
+        <div class="googlemapsdiv">
+          <p class="strong">Locatie</p>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d79753.65529737664!2d5.0849377!3d51.342362099999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c6b5e2092cb971%3A0x62f9922a786ea8d2!2s2370%20Arendonk!5e0!3m2!1sen!2sbe!4v1668256604252!5m2!1sen!2sbe"
+            height="250"
+            style="width: 100%; border: 0"
+            allowfullscreen=""
+          ></iframe>
+        </div>
       </section>
     </div>
     <footer>&copy; Jonas Van Berlo</footer>
