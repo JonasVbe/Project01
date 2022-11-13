@@ -199,10 +199,10 @@ input[type="submit"]:hover {
 }
 #rapwarz {
   position: relative;
-  top: 7px;
-  left: 150px;
-  bottom: 70px;
-  border: 70px
+  margin-top: 15px;  
+  float: left;
+  padding-right: 10px
+  
 }
 
 .cv {
